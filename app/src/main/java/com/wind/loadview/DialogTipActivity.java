@@ -256,7 +256,7 @@ public class DialogTipActivity extends AppCompatActivity implements View.OnClick
                     @Override
                     public void run()
                     {
-                        tipLoadDialog.setMsgAndType("登录成功", TipLoadDialog.ICON_TYPE_SUCCESS).setSuccessIcon(R.mipmap.custom_tip)
+                        tipLoadDialog.setMsgAndType("登录成功", TipLoadDialog.ICON_TYPE_SUCCESS)
                                 .setDismissListener(new TipLoadDialog.DismissListener()
                                 {
                                     @Override

@@ -20,6 +20,8 @@
         android:layout_height="50dp"
         android:indeterminateTint="#7fffffff"
         android:indeterminateTintMode="src_atop"
+        android:indeterminateBehavior="repeat"
+        android:indeterminateDrawable="@drawable/anim_run_load"
         android:padding="10dp"/>
 
     <com.wind.dialogtiplib.dialog_tip.GraduallyTextView
