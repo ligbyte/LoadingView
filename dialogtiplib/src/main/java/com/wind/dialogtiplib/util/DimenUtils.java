@@ -4,8 +4,8 @@ import android.content.Context;
 import android.util.DisplayMetrics;
 
 /**
- * @author yuyh.
- * @date 16/4/10.
+ * @author lime.
+ * @date 2020/4/10.
  */
 public class DimenUtils
 {

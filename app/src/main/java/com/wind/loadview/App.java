@@ -6,8 +6,8 @@ import com.wind.dialogtiplib.util.AppUtils;
 
 
 /**
- * @author xiaokun
- * @date 2017/12/5
+ * @author lime
+ * @date 2020/12/5
  */
 
 public class App extends Application

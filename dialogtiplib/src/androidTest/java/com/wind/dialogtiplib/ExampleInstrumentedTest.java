@@ -23,6 +23,6 @@ public class ExampleInstrumentedTest
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.xiaokun.dialogtiplib.test", appContext.getPackageName());
+        assertEquals("com.lime.dialogtiplib.test", appContext.getPackageName());
     }
 }

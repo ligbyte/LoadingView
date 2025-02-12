@@ -23,6 +23,6 @@ public class ExampleInstrumentedTest
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.xiaokun.loadview", appContext.getPackageName());
+        assertEquals("com.lime.loadview", appContext.getPackageName());
     }
 }

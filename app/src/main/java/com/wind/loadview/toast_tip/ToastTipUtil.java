@@ -14,8 +14,8 @@ import com.wind.loadview.R;
 import static java.lang.Integer.MAX_VALUE;
 
 /**
- * @author xiaokun
- * @date 2017/12/22
+ * @author lime
+ * @date 2020/12/22
  */
 
 public class ToastTipUtil

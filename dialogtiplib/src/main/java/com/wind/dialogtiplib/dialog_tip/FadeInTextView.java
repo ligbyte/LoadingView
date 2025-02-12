@@ -10,10 +10,9 @@ import android.view.animation.LinearInterpolator;
 
 /**
  * <pre>
- *     作者   : 肖坤
- *     时间   : 2018/01/04
- *     描述   : Created by allen on 2017/6/5
- *              字符串逐字显示的view
+ *     作者   : lime
+ *     时间   : 2020/01/04
+ *     描述   : 字符串逐字显示的view
  *              fadeInTextView
  *               .setTextString("自己的字符串")
  *               .startFadeInAnimation()
@@ -106,16 +105,14 @@ public class FadeInTextView extends android.support.v7.widget.AppCompatTextView
             {
                 int index = (int) valueAnimator.getAnimatedValue();
                 //过滤去重，保证每个字只重绘一次
-                if (currentIndex != index)
-                {
+                if (currentIndex != index && index < arr.length) {
                     stringBuffer.append(arr[index]);
                     //重复动画使用append会造成内存泄漏
                     // append(arr[index]);
 
                     currentIndex = index;
                     //所有文字都显示完成之后进度回调结束动画
-                    if (currentIndex == (textCount - 1))
-                    {
+                    if (currentIndex == (textCount - 1)) {
                         stringBuffer.setLength(0);
                         if (textAnimationListener != null)
                         {

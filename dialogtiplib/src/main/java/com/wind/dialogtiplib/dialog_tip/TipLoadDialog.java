@@ -24,8 +24,8 @@ import com.wind.dialogtiplib.R;
 import com.wind.dialogtiplib.util.DimenUtils;
 
 /**
- * @author xiaokun
- * @date 2017/12/14
+ * @author lime
+ * @date 2020/12/14
  */
 
 public class TipLoadDialog
