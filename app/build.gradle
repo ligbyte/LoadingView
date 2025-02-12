@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdk 32
     defaultConfig {
-        applicationId "com.xiaokun.loadview"
+        applicationId "com.wind.loadview"
         minSdk 21
         targetSdk 32
         versionCode 1
