@@ -230,15 +230,16 @@ public class TipLoadDialog
                      *
                      * 88太小  设置为400
                      */
-                    int maxWidth = DimenUtils.dpToPxInt(400);
-                    int width = img.getWidth();
-                    if (maxWidth > width)
-                    {
-                        msg.setMaxWidth(maxWidth);
-                    } else
-                    {
-                        msg.setMaxWidth(width);
-                    }
+//                    int maxWidth = DimenUtils.dpToPxInt(600);
+//                    msg.setMaxWidth(maxWidth);
+//                    int width = img.getWidth();
+//                    if (maxWidth > width)
+//                    {
+//                        msg.setMaxWidth(maxWidth);
+//                    } else
+//                    {
+//                        msg.setMaxWidth(width);
+//                    }
                 }
             });
         }

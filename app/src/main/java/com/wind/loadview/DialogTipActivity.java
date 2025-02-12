@@ -240,7 +240,7 @@ public class DialogTipActivity extends AppCompatActivity implements View.OnClick
                     @Override
                     public void run()
                     {
-                        tipLoadDialog.setMsgAndType("哈哈", TipLoadDialog.ICON_TYPE_LOADING2).show();
+                        tipLoadDialog.setMsgAndType("哈哈哈", TipLoadDialog.ICON_TYPE_LOADING2).show();
                     }
                 });
 
