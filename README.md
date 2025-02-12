@@ -7,7 +7,7 @@ Windows 11 10.0
 JDK: 11  
 
 # ./gradlew
-  module生成aar命令： ./gradlew dialogtiplib:assembleRelea
+  module生成aar命令： ./gradlew dialogtiplib:assembleRelease
 
   命令行编译项目: ./gradlew assembledebug 
 

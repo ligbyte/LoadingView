@@ -3,7 +3,7 @@
           package="com.wind.dialogtiplib"
 >
 
-    <application android:allowBackup="true"
+    <application
                  android:label="@string/app_name"
                  android:supportsRtl="true"
     >
