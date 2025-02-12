@@ -180,7 +180,7 @@ public class DialogTipActivity extends AppCompatActivity implements View.OnClick
                 break;
             case R.id.dis_listener_tip:
                 //弹窗消失事件监听
-                tipLoadDialog.setNoShadowTheme()
+                tipLoadDialog.setNoShadowTheme().setSuccessIcon(R.mipmap.custom_tip)
                         .setMsgAndType("登录成功", TipLoadDialog.ICON_TYPE_SUCCESS)
                         .setDismissListener(new TipLoadDialog.DismissListener()
                         {
@@ -239,13 +239,13 @@ public class DialogTipActivity extends AppCompatActivity implements View.OnClick
                     @Override
                     public void run()
                     {
-                        tipLoadDialog.setMsgAndType("登录成功", TipLoadDialog.ICON_TYPE_SUCCESS)
+                        tipLoadDialog.setMsgAndType("登录成功", TipLoadDialog.ICON_TYPE_SUCCESS).setSuccessIcon(R.mipmap.custom_tip)
                                 .setDismissListener(new TipLoadDialog.DismissListener()
                                 {
                                     @Override
                                     public void onDimissListener()
                                     {
-                                        startActivity(new Intent(DialogTipActivity.this, HomeActivity.class));
+                                        //startActivity(new Intent(DialogTipActivity.this, HomeActivity.class));
                                         //然后可以finish掉当前登录页
                                     }
                                 }).show();
