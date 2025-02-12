@@ -228,9 +228,9 @@ public class TipLoadDialog
                      * 1.icon的宽度<88dp,则设置msg的最大宽度为88dp
                      * 2.icon的宽度>88dp,则设置msg的最大宽度为icon宽度
                      *
-                     * 88太小  设置为200
+                     * 88太小  设置为400
                      */
-                    int maxWidth = DimenUtils.dpToPxInt(200);
+                    int maxWidth = DimenUtils.dpToPxInt(400);
                     int width = img.getWidth();
                     if (maxWidth > width)
                     {

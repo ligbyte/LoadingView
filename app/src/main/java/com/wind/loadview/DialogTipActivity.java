@@ -227,6 +227,23 @@ public class DialogTipActivity extends AppCompatActivity implements View.OnClick
             @Override
             public void run()
             {
+
+                try
+                {
+                    Thread.sleep(2000);
+                } catch (InterruptedException e)
+                {
+                    e.printStackTrace();
+                }
+                runOnUiThread(new Runnable()
+                {
+                    @Override
+                    public void run()
+                    {
+                        tipLoadDialog.setMsgAndType("哈哈", TipLoadDialog.ICON_TYPE_LOADING2).show();
+                    }
+                });
+
                 try
                 {
                     Thread.sleep(2000);
